@@ -1,0 +1,52 @@
+# Bioinformatics Data Files
+
+# Raw sequencing data
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+
+# Alignment files
+*.bam
+*.sam
+*.cram
+
+# Reference / annotation large files
+*.gtf
+*.gff
+*.gff3
+*.fa
+*.fasta
+*.fna
+
+# Index files
+*.bai
+*.crai
+*.fai
+
+# Tool Output / Temporary
+
+*.log
+*.tmp
+*.temp
+
+# QC tools
+
+*_fastqc.zip
+*_fastqc.html
+
+# System Files
+
+.DS_Store
+Thumbs.db
+
+# Python 
+
+__pycache__/
+*.pyc
+
+# Conda / Environments
+
+.env
+.envs
+conda-meta/
